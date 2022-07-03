@@ -1,1 +1,78 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: rgb(3, 104, 3);
+  padding-top: 25px;
+}
+
+#inputs {
+  display: inline-block;
+  margin: 20px;
+}
+
+.card {
+  width: 100px;
+  height: 150px;
+  background-color: white;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 15px;
+  box-shadow: 1px 1px 8px black;
+}
+
+label {
+  font-size: 30px;
+  margin: 20px;
+  color: white;
+}
+
+#bubbleLabel {
+  color: white;
+  margin: 40px;
+}
+
+.middleNumber {
+  text-align: center;
+  padding: 25px 0;
+  font-size: 30px;
+}
+
+.topSuit {
+  text-align: left;
+  font-size: 20px;
+  margin: 4px;
+}
+
+.bottonSuit {
+  font-size: 20px;
+  text-align: right;
+  margin: 3px;
+}
+
+.button {
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 20px;
+  padding: 8px;
+  width: 130px;
+  color: black;
+}
+
+.button:hover {
+  background-color: red;
+}
+
+.newCard {
+  width: 100px;
+  border-radius: 8px;
+  height: 150px;
+  background-color: white;
+  box-shadow: 1px 1px 8px black;
+  margin: 10px;
+  display: inline-block;
+}
+
+.lines {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  margin: 10px;
+}
